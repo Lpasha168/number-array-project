@@ -2,7 +2,7 @@
 
 namespace ArrayOperations {
     struct NumberArray {
-        float* data;    // Указатель на массив чисел
+    float* data;    // Указатель на массив чисел
     int size;       // Размер массива        
     };
 }
