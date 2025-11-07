@@ -7,4 +7,6 @@ namespace ArrayOperations {
     void applyOperation(NumberArray* arr, float (*operation)(float));
     float square(float x);      
     float absolute(float x);
+    void filterArray(NumberArray* arr, bool (*predicate)(float));
+    float reduceArray(const NumberArray* arr, float (*operation)(float, float), float initial);
 }
