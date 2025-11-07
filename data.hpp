@@ -1,6 +1,6 @@
 #pragma once
 
-namespace math {
+namespace SimpleMath {
     struct NumberArray {
         float* numbers;    
         int count;         
