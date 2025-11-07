@@ -1,5 +1,8 @@
-#pragmaonce
-struct NumberArray {
-    float* data;
-    int size;
-};
+#pragma once
+
+namespace math {
+    struct NumberArray {
+        float* numbers;    
+        int count;         
+    };
+}
