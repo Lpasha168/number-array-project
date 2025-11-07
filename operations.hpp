@@ -1,5 +1,5 @@
 #pragma once
-#include "data.h"
+#include "data.hpp"
 
 namespace ArrayOperations {
     NumberArray* createArray(int size);
