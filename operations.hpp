@@ -13,3 +13,5 @@ namespace ArrayOperations {
     bool isEven(float x);
     float add(float a, float b);
     float multiply(float a, float b);
+
+}
