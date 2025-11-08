@@ -1,6 +1,6 @@
 #include "operations.hpp"
 #include <iostream>  
-
+#include <cmath>  
 namespace NumberArrayOps {
 
 
@@ -51,5 +51,6 @@ float square(float x) {
 float absolute(float x) {
     return std::abs(x);
 }
+
 
 }
