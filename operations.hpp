@@ -1,9 +1,10 @@
 #pragma once 
 #include "data.hpp"
 
-namespace ArrayOperations {
+namespace NumberArrayOps {
     NumberArray* createArray(int size);
     void deleteArray(NumberArray* arr);
+    void printArray(const NumberArray* arr);
     void applyOperation(NumberArray* arr, float (*operation)(float));
     float square(float x);
     float absolute(float x);

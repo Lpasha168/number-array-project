@@ -1,6 +1,6 @@
 #pragma once
 
-namespace ArrayOperations {
+namespace NumberArrayOps {
     struct NumberArray {
     float* data;    
     int size;        

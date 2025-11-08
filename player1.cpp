@@ -1,7 +1,7 @@
 #include "operations.hpp"
 #include <iostream>  
 
-namespace ArrayOperations {
+namespace NumberArrayOps {
 
 
 NumberArray* createArray(int size) {
