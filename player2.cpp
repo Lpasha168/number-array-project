@@ -1,7 +1,10 @@
 #include "operations.hpp"
 #include <cmath>
+#include <iostream>
 
-namespace ArrayOperations {
+
+
+namespace NumberArrayOps {
     void filterArray(NumberArray* arr, bool (*predicate)(float)) {
         if (arr == nullptr || predicate == nullptr) {
             return;
@@ -42,5 +45,12 @@ namespace ArrayOperations {
     float multiply(float a, float b) {
         return a * b;
     }
-
+    
+    void printArray(const NumberArray* arr) {
+        std::cout << "[ ";
+        for (int i = 0; i < arr->size; ++i) {
+            std::cout << arr->data[i] << " ";
+        }
+        std::cout << "]" << std::endl;
+    }
 }
