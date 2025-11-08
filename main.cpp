@@ -1,22 +1,9 @@
 #include <iostream>
-#include "operations.h"
+#include "operations.hpp"
 
-
-void printArray(const NumberArray* arr) {
-    if (arr == nullptr) {
-        std::cout << "Array is null!" << std::endl;
-        return;
-    }
-
-    std::cout << "Array [" << arr->size << "]: ";
-    for (int i = 0; i < arr->size; i++) {
-        std::cout << arr->data[i] << " ";
-    }
-    std::cout << std::endl;
-}
 
 int main() {
-    using namespace ArrayOperations;
+    using namespace NumberArrayOps;
 
     std::cout << "=== Number Array Operations Demo ===" << std::endl;
 
@@ -69,3 +56,4 @@ int main() {
     std::cout << "\n=== Demo completed ===" << std::endl;
     return 0;
 }
+
